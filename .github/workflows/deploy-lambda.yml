@@ -54,4 +54,3 @@ jobs:
         run: |
           echo "Running lambda function test..."
           node -e "const { handler } = require('./index'); handler({}, null, (err, res) => console.log(res));"
-      
